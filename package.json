@@ -1,0 +1,24 @@
+{
+  "name": "typescript-gulp",
+  "version": "1.0.0",
+  "description": "Typescript with Gulp",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://webguru001@github.com/webguru001/Typescript-Gulp.git"
+  },
+  "author": "Web Guru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webguru001/Typescript-Gulp/issues"
+  },
+  "homepage": "https://github.com/webguru001/Typescript-Gulp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "typescript": "^3.1.6"
+  }
+}
