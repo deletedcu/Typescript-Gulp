@@ -19,6 +19,7 @@
   "devDependencies": {
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
+    "awesome-typescript-loader": "^5.2.1",
     "babelify": "^10.0.0",
     "browserify": "^16.2.3",
     "gulp": "^4.0.0",
@@ -26,10 +27,18 @@
     "gulp-typescript": "^5.0.0-alpha.3",
     "gulp-uglify": "^3.0.1",
     "gulp-util": "^3.0.8",
+    "source-map-loader": "^0.2.4",
     "tsify": "^4.0.1",
     "typescript": "^3.1.6",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
-    "watchify": "^3.11.0"
+    "watchify": "^3.11.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@types/react": "^16.7.7",
+    "@types/react-dom": "^16.0.10",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   }
 }

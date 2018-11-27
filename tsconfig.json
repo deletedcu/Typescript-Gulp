@@ -1,9 +1,23 @@
 {
-    "files": [
-        "src/main.ts"
-    ],
+    // Gulp
+    // "files": [
+    //     "src/main.ts"
+    // ],
+    // "compilerOptions": {
+    //     "noImplicitAny": true,
+    //     "target": "esnext"
+    // }
+
+    // React & Webpack
     "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
         "noImplicitAny": true,
-        "target": "esnext"
-    }
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react"
+    },
+    "include": [
+        "./src/**/*"
+    ]
 }

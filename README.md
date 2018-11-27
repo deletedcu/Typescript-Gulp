@@ -39,3 +39,16 @@ npm install --save-dev gulp-uglify vinyl-buffer gulp-sourcemaps
 ```
 npm install --save-dev babelify babel-core babel-preset-es2015 vinyl-buffer gulp-sourcemaps
 ```
+
+# React & Webpack
+- Initialize the project
+```
+npm init
+```
+- Install our dependencies
+```
+npm install -g webpack
+npm install --save react react-dom @types/react @types/react-dom
+npm install --save-dev typescript awesome-typescript-loader source-map-loader
+npm link typescript
+```
