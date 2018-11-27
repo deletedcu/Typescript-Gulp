@@ -35,3 +35,7 @@ npm install --save-dev watchify gulp-util
 ```
 npm install --save-dev gulp-uglify vinyl-buffer gulp-sourcemaps
 ```
+- Babel
+```
+npm install --save-dev babelify babel-core babel-preset-es2015 vinyl-buffer gulp-sourcemaps
+```
