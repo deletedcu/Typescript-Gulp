@@ -24,3 +24,14 @@ node dist/main.js
 ```
 npm install --save-dev browserify tsify vinyl-source-stream
 ```
+
+## Watchify, Babel, and Uglify
+
+- Watchify
+```
+npm install --save-dev watchify gulp-util
+```
+- Uglify
+```
+npm install --save-dev gulp-uglify vinyl-buffer gulp-sourcemaps
+```
