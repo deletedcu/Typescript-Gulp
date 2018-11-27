@@ -1,5 +1,7 @@
 # Typescript-Gulp
 
+## Start project
+
 - Initialize the project
 ```
 npm init
@@ -15,4 +17,10 @@ npm install --save-dev typescript gulp gulp-typescript
 ```
 gulp
 node dist/main.js
+```
+
+## Browserify
+
+```
+npm install --save-dev browserify tsify vinyl-source-stream
 ```
